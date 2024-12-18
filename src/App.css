@@ -1,0 +1,43 @@
+.app {
+    background: url( /image.png) no-repeat center center;
+    background-size: cover;
+    /* Ensures the background image covers the entire container */
+    height: 100vh;
+    /* Retains this as the explicit height */
+    width: 100%;
+    /* Ensures the container spans the full width */
+    overflow: hidden;
+    /* Removes excess content beyond the container */
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch {
+    padding: 15px;
+    border-radius: 5px;
+    background-color:  rgba(255, 255, 255, 0.733);
+    box-shadow: 4px 4px 10px 0 rgba(49, 49, 49, 0.87);
+    
+
+}
+.time{
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 80px;
+    background-color:  rgba(255, 255, 255, 0.733);
+    font-weight: 400;
+    box-shadow: 4px 4px 10px 0 rgba(49, 49, 49, 0.87);
+
+}
+
+.date{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 80px;
+    background-color:  rgba(255, 255, 255, 0.733);
+    box-shadow: 4px 4px 10px 0 rgba(49, 49, 49, 0.87);
+
+}
