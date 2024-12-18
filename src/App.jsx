@@ -1,6 +1,6 @@
-import { IndiaDate } from "./Component/IndiaDate"
+import { IndiaDate } from "./Component/IndiaDate.jsx"
 
-import { IndiaTime } from "./Component/IndiaTime"
+import { IndiaTime } from "./Component/Indiatime.jsx"
 
 import './App.css';
 
