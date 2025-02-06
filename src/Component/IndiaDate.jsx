@@ -15,8 +15,8 @@
    }, []);
 
 const monthNames = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "October", "Nov", "Dec"
 ];
   // Extract day, month, and year
   const day = currentTime.getDate(); // Day of the month (1-31)
