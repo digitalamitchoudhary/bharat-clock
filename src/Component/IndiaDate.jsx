@@ -14,10 +14,14 @@
      return () => clearInterval(interval);
    }, []);
 
-
+const monthNames = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
   // Extract day, month, and year
   const day = currentTime.getDate(); // Day of the month (1-31)
-  const month = currentTime.getMonth() + 1; // Month (0-11, so add 1 for 1-12)
+  //const month = currentTime.getMonth() + 1; // Month (0-11, so add 1 for 1-12)
+  const month = monthNames[currentTime.getMonth()];
   const year = currentTime.getFullYear(); // Full year (e.g., 2024)
   // const month = String(currentTime.getMonth() + 1).padStart(2, '0');
   // const day = String(currentTime.getDate()).padStart(2, '0');
