@@ -16,7 +16,7 @@ function App() {
           <p className="fs-4 "> This is the clock that shows the Time & Date of Bharat </p>
         </div><IndiaTime />
         <IndiaDate />
-        <a className=" text-white text-decoration-none " href="https://zaap.bio/digitalamitchoudhary"> Made with <span >❤</span> by Digitalamitchoudhary
+        <a className=" text-white text-decoration-none " href="https://digitalamitchoudhary.com"> Made with <span >❤</span> by Digitalamitchoudhary
         </a>
 
       </div>
