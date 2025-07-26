@@ -44,3 +44,8 @@
     margin-bottom: 120px;
 
 }
+
+.bg-blk{
+    background-color: rgba(0, 0, 0, 0.36);
+    border-radius: 5px;
+}
